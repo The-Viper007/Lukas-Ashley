@@ -104,7 +104,7 @@ h2, h3 {
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background: rgba(77, 154, 255, 0.61);
 }
 
 #portfolio a {
