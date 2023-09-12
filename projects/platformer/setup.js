@@ -1,10 +1,10 @@
 // setup variables
 const walkAcceleration = 2.5; // how much is added to the speed each frame
 const gravity = 0.5; // how much is subtracted from speedY each frame
-const friction = 1.5; // how much the player is slowed each frame
-const maxSpeed = 8; // maximum horizontal speed, not vertical
+const friction = 1; // how much the player is slowed each frame
+const maxSpeed = 15; // maximum horizontal speed, not vertical
 const playerJumpStrength = 12; // this is subtracted from the speedY each jump
-const projectileSpeed = 8; // the speed of projectiles
+const projectileSpeed = 10; // the speed of projectiles
 
 /////////////////////////////////////////////////
 //////////ONLY CHANGE ABOVE THIS POINT///////////
@@ -97,4 +97,5 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
+  coin: { image: "https://th.bing.com/th/id/R.2e58cfe9b70397a7ff5c4e55990a3f19?rik=Abp%2bnR6HQA0bYQ&riu=http%3a%2f%2fjvunity.weebly.com%2fuploads%2f4%2f7%2f6%2f0%2f47606749%2f4021699_orig.png&ehk=EgPCxZp9JUnuqFjp5IIRgyot%2b%2bTdGiLpt%2bx0Kj7g3%2bQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" },
 };

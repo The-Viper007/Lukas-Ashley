@@ -50,8 +50,17 @@ $(function () {
     createPlatform(1200, 590, 50, 20);
     createPlatform(1260, 520, 50, 20);
     createPlatform(1320, 450, 50, 20);
-    createPlatform(1380, 380, 50, 20);
-    createPlatform(920, 270, 150, 20);
+    createPlatform(1380, 380, 30, 20);
+    createPlatform(1020, 270, 150, 20);
+    createPlatform(820, 170, 100, 20);
+    createPlatform(1390, 0, 20, 1000);
+    createPlatform(620, 270, 150, 20);
+    createPlatform(420, 370, 150, 20);
+    createPlatform(320, 270, 30, 20);
+    createPlatform(120, 630, 10, 50);
+    createPlatform(420, 200, 150, 20);
+    createPlatform(550, 100, 20, 100);
+
 
     
     // TODO 2
@@ -60,8 +69,12 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-
-
+    createCollectable("coin", 180, 680, 0, 0);
+    createCollectable("coin", 1000, 560, 0, 0);
+    createCollectable("coin", 850, 100, 0, 0);
+    createCollectable("coin", 480, 310, 0, 0);
+    createCollectable("coin", 470, 130, 0, 0);
+  
 
     // TODO 3
     // Create cannons
@@ -69,7 +82,9 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
+    createCannon("right", 600, 1500);
+    createCannon("top", 350, 700);
+    createCannon("left", 180, 1500);
 
 
     /////////////////////////////////////////////////
