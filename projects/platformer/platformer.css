@@ -1,10 +1,10 @@
 body {
   margin: 0px;
-  background-image: url("https://th.bing.com/th/id/R.53f68f4682f08c21e823298bb537a5ae?rik=SKogD%2b6QHXgmLw&riu=http%3a%2f%2fopengameart.org%2fsites%2fdefault%2ffiles%2frock_4.png&ehk=z9nNYtfqXhQnzEzCOOwYuG0zxrzEORlFrdsN%2f5Xyx%2fQ%3d&risl=&pid=ImgRaw&r=0");
+  background-image: url("/projects/platformer/images/mountian.png");
 }
 
 canvas {
-  background-image: url("https://th.bing.com/th/id/R.53f68f4682f08c21e823298bb537a5ae?rik=SKogD%2b6QHXgmLw&riu=http%3a%2f%2fopengameart.org%2fsites%2fdefault%2ffiles%2frock_4.png&ehk=z9nNYtfqXhQnzEzCOOwYuG0zxrzEORlFrdsN%2f5Xyx%2fQ%3d&risl=&pid=ImgRaw&r=0");
+  background-image: url("/projects/platformer/images/mountian.png");
 }
 
 img {
